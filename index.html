@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Website with Slide Menu</title>
+    <link rel="stylesheet" href="slidemenu.css">
+    <script src="slidemenu.js"></script>
+  </head>
+  <body>
+    <!-- Slide menu -->
+    <div class="slide-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <container class="div2">
+   <!-- Main content -->
+    <div class="main-content">
+      <h1>Welcome to my website!</h1>
+      <p>description</p>
+    </div>
+    <!-- Sec content -->
+    <div class="sec-content">
+      <h1>just hi</h1>
+      <p>hi again</p>
+    </div>
+  </container>
+    <!-- Script to toggle slide menu -->
+    <script>
+      const slideMenu = document.querySelector('.slide-menu');
+      const mainContent = document.querySelector('.main-content');
+      slideMenu.addEventListener('click', () => {
+        slideMenu.classList.toggle('closed');
+        mainContent.classList.toggle('closed');
+      });
+    </script>
+    
+  </body>
+</html>
