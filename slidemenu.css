@@ -39,6 +39,9 @@
 .sec-content {
   position: absolute;
   top: 10px; left: 1000px;
+  background: linear-gradient(to right,#ffffff, #ff0000, #ff0000, #ff0000);
+  width: 100vh;
+  height: 100vh;
 }
       
 
