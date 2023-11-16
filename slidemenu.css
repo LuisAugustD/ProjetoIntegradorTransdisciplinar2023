@@ -1,5 +1,8 @@
 
 /* Slide menu styles */
+html {
+  background-color: #e1e0c0;
+}
 .slide-menu {
         position: fixed;
         top: 0;
@@ -7,7 +10,7 @@
         height: 100%;
         width: 250px;
         background-color: #056305;
-        color: #ffffff;
+        color: #e1e0c0;
         padding: 20px;
         transition: all 0.3s ease-in-out;
       }
@@ -31,17 +34,26 @@
 .main-content {
         margin-left: 250px;
         padding: 20px;
+        background-color: #e1e0c0;
+        width: 300vh;
+        height: 300vh;
       }
 .div2 {
   position: relative;
-  top: 0px; left: 400px;
+  top: -30px; left: 400px;
 }
 .sec-content {
   position: absolute;
   top: 10px; left: 1000px;
-  background: linear-gradient(to right,#ffffff, #ff0000, #ff0000, #ff0000);
+  background: linear-gradient(to right,#e1e0c0, #ff0000, #ff0000, #ff0000);
   width: 100vh;
   height: 100vh;
+}
+.right-image1 {
+  position: flex;
+  width: 200px;
+  height: 200px;
+  top: 150px; left: 150px;
 }
       
 
