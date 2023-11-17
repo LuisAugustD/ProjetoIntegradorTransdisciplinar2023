@@ -32,11 +32,12 @@ html {
       }
       /* Main content styles */
 .main-content {
+        position: flex;
         margin-left: 250px;
         padding: 20px;
         background-color: #e1e0c0;
         width: 300vh;
-        height: 300vh;
+        height: 90vh;
       }
 .div2 {
   position: relative;
@@ -50,10 +51,42 @@ html {
   height: 100vh;
 }
 .right-image1 {
-  position: flex;
-  width: 200px;
-  height: 200px;
-  top: 150px; left: 150px;
+  background-image: url("imagens/vista de longe.png");
+  background-size: cover;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 100px;
 }
-      
+
+.right-image2 {
+  background-image: url("imagens/lado de fora do restaurante1.png");
+  background-size: cover;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 100px;
+  position: relative;
+  left: 200px;
+}
+
+.right-image3 {
+  background-image: url("imagens/ingredientes.png");
+  background-size: cover;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  margin: 100px;
+}
+
+.texto1 {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+  top: 115px; right: -300px;
+}
 
