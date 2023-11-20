@@ -54,10 +54,13 @@ html {
   background-image: url("imagens/vista de longe.png");
   background-size: cover;
   border-radius: 10px;
+  position: relative;
   width: 150px;
-  height: 150px;
+  height: 170px;
   padding: 10px;
   margin: 100px;
+  top: -280px;
+  left: -90px;
 }
 
 .right-image2 {
@@ -65,11 +68,12 @@ html {
   background-size: cover;
   border-radius: 10px;
   width: 150px;
-  height: 150px;
+  height: 170px;
   padding: 10px;
   margin: 100px;
   position: relative;
-  left: 200px;
+  top: -270px;
+  left: -90px;
 }
 
 .right-image3 {
@@ -77,16 +81,33 @@ html {
   background-size: cover;
   border-radius: 10px;
   width: 150px;
-  height: 150px;
+  height: 170px;
   padding: 10px;
   margin: 100px;
+  position: relative;
+  top: -260px;
+  left: -90px;
 }
 
 .texto1 {
   color: #000000;
   text-decoration: none;
   font-size: 20px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
   position: relative;
-  top: 115px; right: -300px;
+  top: 30px; right: -220px;
+  width: 200px;
+  height: 200px;
+}
+
+.right-text {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  position: relative;
+  text-align: center;
+  top: 0px;
+  left: -240px;
 }
 
